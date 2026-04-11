@@ -1,0 +1,33 @@
+#![allow(unused_imports)]
+#![allow(non_snake_case)]
+#![allow(non_upper_case_globals)]
+#![allow(dead_code)]
+#![allow(unused_variables)]
+#![allow(static_mut_refs)]
+#![allow(unused_must_use)]
+
+pub use chrono;
+pub use eframe;
+pub use egui_extras;
+pub use flate2;
+pub use log;
+pub use noise;
+pub use rand;
+pub use rand_distr;
+pub use regex;
+pub use reqwest;
+pub use scraper;
+pub use serde;
+pub use serde_json;
+pub use strum;
+pub use strum_macros;
+
+pub(crate) use internal::offsets;
+pub use script_macro::script_exports;
+
+pub mod api;
+
+pub mod c_vec;
+pub(crate) mod c_address;
+pub const API_VERSION: &str = env!("CARGO_PKG_VERSION");
+

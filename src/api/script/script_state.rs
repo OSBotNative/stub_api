@@ -1,0 +1,1 @@
+static EMPTY_VEC_I8 : Vec < i8 > = vec ! [] ; static EMPTY_VEC_I32 : Vec < i32 > = vec ! [] ; # [repr (C)] # [derive (Debug , PartialEq , Copy , Clone)] pub enum ScriptState { Starting = 0 , Running = 1 , Paused = 2 , AwaitingRandom = 3 , Stopping = 4 , Suspended = 5 }

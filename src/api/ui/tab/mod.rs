@@ -1,0 +1,13 @@
+pub mod inventory;
+pub mod tabs;
+pub mod skills;
+pub mod equipment;
+pub mod quests;
+pub mod prayer;
+pub mod magic;
+pub mod combat;
+pub mod diaries;
+pub mod settings;
+pub mod logout;
+pub mod world_switcher;
+pub mod emotes;
