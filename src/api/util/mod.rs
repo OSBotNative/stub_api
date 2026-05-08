@@ -15,3 +15,4 @@ pub mod randoms;
 pub mod mind;
 pub mod database;
 pub mod math;
+pub mod item_node_snapshot;
